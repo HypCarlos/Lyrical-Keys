@@ -8,33 +8,12 @@
 body {
   background-image: url(../src/assets/background.jpg);
   object-fit: cover;
+  background-repeat: no-repeat;
 }
 
-.startpage-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.text-container {
-}
-
-.model-container {
-  height: 850px;
-  width: 100%;
-}
-
-#spline {
-  min-height: 100%;
-}
-
-svg {
-  height: 80px;
-}
-
-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
+/* @media (max-width: 600px) {
+  .model-container {
+    max-height: 20%;
+    max-width: 90%;
+  }
+} */

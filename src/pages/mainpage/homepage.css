@@ -1,0 +1,24 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+.vinyl-container {
+  height: 500px;
+}
+
+.lyrics-container {
+  display: flex;
+  height: 500px;
+  width: 50%;
+}
+
+.lyrics {
+  justify-content: center;
+}
