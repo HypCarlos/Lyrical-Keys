@@ -1,0 +1,40 @@
+#root {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../src/assets/background.jpg);
+  object-fit: cover;
+}
+
+.startpage-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-container {
+}
+
+.model-container {
+  height: 850px;
+  width: 100%;
+}
+
+#spline {
+  min-height: 100%;
+}
+
+svg {
+  height: 80px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
