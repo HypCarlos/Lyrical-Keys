@@ -3,8 +3,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Startpage from "./pages/homepage/Startpage";
-import Homepage from "./pages/mainpage/Homepage";
+import Startpage from "./pages/startpage/Startpage";
+import Homepage from "./pages/homepage/Homepage";
 
 const App = () => {
   return (

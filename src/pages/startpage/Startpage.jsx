@@ -10,7 +10,7 @@ const Startpage = () => {
     <div className="App">
       <div className="startpage-container">
         <div className="text-container">
-          <h1 style={{ color: "white", fontSize: "100px" }}>Lyrical Keys</h1>
+          <h1 style={{ color: "white", fontSize: "80px" }}>Lyrical Keys</h1>
         </div>
         <Link to="/home">
           <button>

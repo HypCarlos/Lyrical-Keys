@@ -1,0 +1,49 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 10%;
+  padding: 30px;
+}
+
+.search-border {
+  border: solid;
+  border-radius: 30px;
+}
+
+.vinyl-container {
+  display: flex;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lyrics-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+#search {
+  padding: 40px;
+  font-size: ;
+}
+
+#lyrics {
+  width: 70%;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  #lyrics {
+    font-size: 20px;
+    width: 100%;
+  }
+}
