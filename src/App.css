@@ -7,7 +7,8 @@
 
 body {
   background-image: url(../src/assets/background.jpg);
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 

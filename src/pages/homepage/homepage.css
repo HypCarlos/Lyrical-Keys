@@ -7,8 +7,17 @@
 .search-container {
   display: flex;
   justify-content: flex-end;
-  height: 10%;
-  padding: 30px;
+  /* height: 10%; */
+  height: 5%;
+  padding: 40px;
+}
+
+.search-container input {
+  text-align: center;
+  background-color: transparent;
+  border-radius: 35px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .search-border {
