@@ -27,7 +27,7 @@
 
 .vinyl-container {
   display: flex;
-  height: 25%;
+  height: 30%;
   justify-content: center;
   align-items: center;
 }
@@ -42,7 +42,6 @@
 }
 #search {
   padding: 40px;
-  font-size: ;
 }
 
 #lyrics {
@@ -50,9 +49,26 @@
   font-size: 30px;
 }
 
+.lyrics-match {
+  color: white;
+}
+
+.lyrics-nonmatch {
+  color: red;
+}
+
+.words {
+  padding: 10%;
+}
+
 @media (max-width: 600px) {
   #lyrics {
     font-size: 20px;
     width: 100%;
   }
+}
+
+.results-container {
+  display: flex;
+  justify-content: space-around;
 }
